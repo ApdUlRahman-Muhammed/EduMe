@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#e5fcf9"
+    tools:context=".SignupActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="22"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="55"
+        android:weightSum="50"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/edtxt"
+            android:hint="@string/name"
+            android:ems="10"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edtxt"
+            android:hint="@string/email"
+            android:ems="10"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edtxt"
+            android:hint="@string/password"
+            android:ems="10"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edtxt"
+            android:hint="@string/confirm_pass"
+            android:ems="10"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layoutDirection="ltr"
+            android:weightSum="100"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="22"
+                android:text="@string/type"
+                android:layout_marginLeft="15dp"
+                android:textSize="25sp"
+                android:textColor="#000"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBoxstud"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="Student"
+                android:textSize="18sp"/>
+            <CheckBox
+                android:id="@+id/checkBoxteeach"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="Teacher"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="20"
+        android:weightSum="20"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:text="@string/signup"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="signup"
+            android:background="@drawable/signupbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:onClick="click_signup"
+            android:text="@string/have_account" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

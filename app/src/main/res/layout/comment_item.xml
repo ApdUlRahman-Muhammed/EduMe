@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#bac7c6"
+
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:background="#bac7c6"
+        android:layout_marginTop="10dp"
+        >
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/comprofileimage"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/pro"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FF000000"/>
+            <TextView
+            android:id="@+id/comproname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mohamed salah "
+            android:layout_gravity="center"
+            app:layout_constraintLeft_toRightOf="@+id/comprofileimage"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+            <TextView
+                android:id="@+id/comtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1h"
+                android:layout_gravity="center"
+                app:layout_constraintRight_toLeftOf="parent"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/comcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="content "
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintLeft_toRightOf="@+id/comprofileimage"
+                app:layout_constraintTop_toBottomOf="@+id/comproname"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                />
+        </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

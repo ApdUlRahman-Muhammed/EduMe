@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/group_id"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        >
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            >
+
+            <ImageView
+                android:id="@+id/backimg"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg1" />
+
+            <TextView
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:text="Subject"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_marginBottom="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                 />
+
+            <TextView
+            android:id="@+id/teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR:mohamed mohamed"
+            android:textSize="15sp"
+            android:textColor="#000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="7dp"
+            />
+
+            <TextView
+                android:id="@+id/lev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="level 1"
+                android:textSize="16sp"
+                android:textColor="#000"
+                app:layout_constraintBottom_toTopOf="@id/teacher"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="maadi"
+                android:textSize="16sp"
+                android:textColor="#000"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/num_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/15"
+                android:textSize="16sp"
+                android:textColor="#000"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 pound/L"
+                android:textSize="16sp"
+                android:textColor="#000"
+                app:layout_constraintBottom_toTopOf="@+id/teacher"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+

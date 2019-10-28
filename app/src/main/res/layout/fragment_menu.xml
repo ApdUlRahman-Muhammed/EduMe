@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/pup_notification"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/signinbtn"
+        android:layout_marginTop="25dp"
+        android:text="Notification"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/pup_massage"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/signinbtn"
+        android:layout_marginTop="25dp"
+        android:text="Massage"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/pup_contact_us"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/signinbtn"
+        android:layout_marginTop="25dp"
+        android:text="Contact US"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/signupbtn"
+        android:layout_marginTop="25dp"
+        android:text="Logout"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

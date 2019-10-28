@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GradPro</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="type">Type</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="have_account">Already have account</string>
+    <string name="password_forget">Forget Password !</string>
+    <string name="create_account">Create New account</string>
+    <string name="facesign">Login with facebook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="subjects">
+        <item>Select subject</item>
+        <item>Math</item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>Deusch</item>
+        <item>history</item>
+        <item>franch</item>
+    </string-array>
+    <string-array name="groubs">
+        <item>Select subject</item>
+        <item>group 1</item>
+        <item>group 2</item>
+        <item>group 3</item>
+        <item>group 4</item>
+        <item>group 5</item>
+    </string-array>
+    <string-array name="cites">
+        <item>Select subject</item>
+        <item>maadi</item>
+        <item>tagamoa 5</item>
+        <item>nasr city</item>
+        <item>6 october</item>
+        <item>ain shams</item>
+        <item>elmarg</item>
+    </string-array>
+    <string-array name="level">
+        <item>Select Level</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="prices">
+        <item>price per lesson</item>
+        <item>0-25</item>
+        <item>25-50</item>
+        <item>50-75</item>
+        <item>75-100</item>
+        <item>100-150</item>
+        <item>150-200</item>
+        <item>200-500</item>
+    </string-array>
+
+</resources>

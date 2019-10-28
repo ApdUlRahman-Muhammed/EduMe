@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/rec_pro_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pro"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"/>
+    <TextView
+        android:id="@+id/rec_teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mohamed salah "
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

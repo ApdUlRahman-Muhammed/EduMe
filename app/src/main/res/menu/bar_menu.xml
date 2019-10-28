@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/appbar_profile"
+        android:icon="@drawable/ic_user"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_posts"
+        android:title="Setting"
+        />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_posts"
+        android:title="logout"
+        />
+
+    <item
+        android:id="@+id/nav_posts"
+        android:icon="@drawable/message"
+        android:title="Posts"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/nav_groups"
+        android:icon="@drawable/noti"
+        android:title="Groups"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/flag"
+        android:title="Profile"
+        app:showAsAction="always"
+        />
+</menu>

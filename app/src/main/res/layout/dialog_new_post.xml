@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/select_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Group"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        />
+    <Spinner
+        android:id="@+id/sp_sg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/select_group"
+         />
+    <TextView
+        android:id="@+id/post_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/sp_sg"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Post Content"
+        />
+    <EditText
+        android:id="@+id/ed_post"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edtxt"
+        app:layout_constraintTop_toBottomOf="@id/post_content"
+        />
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_image"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/ed_post"
+        />
+    <Button
+        android:id="@+id/puplish"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Puplish"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/ed_post"
+        app:layout_constraintRight_toLeftOf="parent"
+        />
+    <Button
+        android:id="@+id/puplish_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Cancle"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/ed_post"
+        app:layout_constraintRight_toLeftOf="@id/puplish"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
